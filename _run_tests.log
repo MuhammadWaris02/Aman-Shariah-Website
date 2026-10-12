@@ -1,0 +1,5 @@
+﻿
+RUN _test_nav.html @ 1400,900 profile=p1
+  exit=0  chars=32413
+RUN _test_mobile.html @ 390,844 profile=p2
+  exit=0  chars=28126

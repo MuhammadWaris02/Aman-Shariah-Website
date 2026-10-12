@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Aman Shariah Advisory</title>
+<meta name="description" content="Photographs from Aman Shariah Advisory's seminars, certification ceremonies, conferences, and community activities.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="page-loader"><div class="loader-mark"><svg viewBox="0 0 24 24" fill="currentColor" width="46" height="46"><rect x="4" y="4" width="16" height="16"/><rect x="4" y="4" width="16" height="16" transform="rotate(45 12 12)"/></svg></div></div>
+<div id="site-header" data-active="gallery"></div>
+
+<main>
+
+  <section class="hero hero-small" style="background-image:url('E:\AmanShariah Website\aman-website\images\gallery-hero.jpg');">
+    <div class="container hero-content">
+      <div class="eyebrow">Gallery</div>
+      <h1>Gallery</h1>
+      <p>Moments from our seminars, certifications, conferences, and community activities.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="gallery-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="seminars">Seminars &amp; Workshops</button>
+        <button class="filter-btn" data-filter="certification">Certification</button>
+        <button class="filter-btn" data-filter="conferences">Conferences &amp; Events</button>
+        <button class="filter-btn" data-filter="community">Community &amp; Education</button>
+        <button class="filter-btn" data-filter="media">Media Appearances</button>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <div class="g-item" data-category="seminars">
+          <img src="images\workshop.jpg" alt="Shariah Governance Workshop for senior management">
+          <div class="g-caption">Shariah Governance Workshop for Senior Management</div>
+        </div>
+        <div class="g-item" data-category="certification">
+          <img src="images\certificate.jpg" alt="Certificate presentation ceremony">
+          <div class="g-caption">Certificate Presentation Ceremony</div>
+        </div>
+        <div class="g-item" data-category="seminars">
+          <img src="images\islamic-finance.jpg" alt="Islamic finance awareness session">
+          <div class="g-caption">Islamic Finance Awareness Session</div>
+        </div>
+        <div class="g-item" data-category="conferences">
+          <img src="images\conferences.jpg" alt="Panel discussion on the future of Islamic finance">
+          <div class="g-caption">Panel Discussion — Future of Islamic Finance</div>
+        </div>
+        <div class="g-item" data-category="community">
+          <img src="images\community.jpg" alt="University session on Islamic finance careers">
+          <div class="g-caption">University Session on Islamic Finance Careers</div>
+        </div>
+        <div class="g-item" data-category="seminars">
+          <img src="images\takaful.jpg" alt="Takaful training programme">
+          <div class="g-caption">Takaful Training Programme</div>
+        </div>
+        <div class="g-item" data-category="media">
+          <img src="images\interview.jpg" alt="Interview on Islamic finance and Shariah compliance">
+          <div class="g-caption">Media Interview — Shariah Compliance</div>
+        </div>
+        <div class="g-item" data-category="certification">
+          <img src="images\product-approval.jpg" alt="Signing ceremony for a Shariah-compliant product">
+          <div class="g-caption">Product Approval Signing Ceremony</div>
+        </div>
+        <div class="g-item g-hidden" data-category="seminars">
+          <img src="images\executive-briefing.jpg" alt="Executive briefing on Islamic commercial contracts">
+          <div class="g-caption">Executive Briefing on Islamic Commercial Contracts</div>
+        </div>
+        <div class="g-item g-hidden" data-category="community">
+          <img src="images\community-awareness.jpg" alt="Charitable initiative and public education activity">
+          <div class="g-caption">Community Awareness Initiative</div>
+        </div>
+        <div class="g-item g-hidden" data-category="conferences">
+          <img src="images\conferences.jpg" alt="Participation in an Islamic finance conference">
+          <div class="g-caption">Islamic Finance Conference</div>
+        </div>
+        <div class="g-item g-hidden" data-category="media">
+          <img src="images\podcast.jpg" alt="Podcast recording on Shariah-compliant investment">
+          <div class="g-caption">Podcast — Shariah-Compliant Investment</div>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top:44px;">
+        <button id="loadMoreBtn" class="btn btn-outline-dark">Load More</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
